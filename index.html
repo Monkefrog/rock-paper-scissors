@@ -8,13 +8,14 @@
 </head>
 
 <body>
-
+    <!-- GUI Buttons and Result "box" -->
     <button id="rock">Rock</button>
     <button id="paper">Paper</button>
     <button id="scissors">Scissors</button>
     <div id="result"></div>
 
     <script>
+        // rock paper scissors logic
         function getComputerChoice() {
             const randomNum = Math.random();
             if (randomNum < 0.33) {
