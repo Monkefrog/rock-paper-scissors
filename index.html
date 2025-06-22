@@ -10,7 +10,13 @@
 <body>
 
     <script>
-        console.log("hello world")
+        let choices = ["Rock", "Paper", "Scissors"];
+
+        function getComputerChoice(max) {
+            return Math.floor(Math.random() * max);
+        }
+        console.log(choices[getComputerChoice(3)]);
+
     </script>
 
 </body>
